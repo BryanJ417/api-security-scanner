@@ -1,0 +1,47 @@
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: api_scanner_backend
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ./backend:/app
+    networks:
+      - scanner_network
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: api_scanner_frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    networks:
+      - scanner_network
+    restart: unless-stopped
+
+  nginx:
+    image: nginx:alpine
+    container_name: api_scanner_nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - backend
+      - frontend
+    networks:
+      - scanner_network
+    restart: unless-stopped
+
+networks:
+  scanner_network:
+    driver: bridge
