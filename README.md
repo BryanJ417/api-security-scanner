@@ -15,15 +15,15 @@ Automated security testing platform that detects OWASP API Top 10 vulnerabilitie
 
 Key Features
 
--OWASP API Top 10 Coverage\*\* - Complete vulnerability detection  
+-OWASP API Top 10 Coverage - Complete vulnerability detection  
 
--Multi-Protocol Support\*\* - REST, GraphQL, SOAP  
+-Multi-Protocol Support - REST, GraphQL, SOAP  
 
--Real-Time Scanning\*\* - Live progress tracking  
+-Real-Time Scanning - Live progress tracking  
 
--Intelligent Fuzzing\*\* - ML-enhanced payload generation  
+-Intelligent Fuzzing - ML-enhanced payload generation  
 
--Comprehensive Reports\*\* - Actionable remediation guidance  
+-Comprehensive Reports - Actionable remediation guidance  
 
 -CI/CD Ready - Docker containerized deployment  
 
@@ -165,6 +165,7 @@ Acknowledgments
 - FastAPI for the excellent Python framework
 
 - React community for frontend tools
+
 
 
 
