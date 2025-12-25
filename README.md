@@ -13,22 +13,19 @@ Overview
 Automated security testing platform that detects OWASP API Top 10 vulnerabilities in seconds. Built with FastAPI, React, TypeScript, and Docker.
 
 
+Key Features
 
-\### Key Features
+-OWASP API Top 10 Coverage\*\* - Complete vulnerability detection  
 
+-Multi-Protocol Support\*\* - REST, GraphQL, SOAP  
 
+-Real-Time Scanning\*\* - Live progress tracking  
 
-✅ \*\*OWASP API Top 10 Coverage\*\* - Complete vulnerability detection  
+-Intelligent Fuzzing\*\* - ML-enhanced payload generation  
 
-✅ \*\*Multi-Protocol Support\*\* - REST, GraphQL, SOAP  
+-Comprehensive Reports\*\* - Actionable remediation guidance  
 
-✅ \*\*Real-Time Scanning\*\* - Live progress tracking  
-
-✅ \*\*Intelligent Fuzzing\*\* - ML-enhanced payload generation  
-
-✅ \*\*Comprehensive Reports\*\* - Actionable remediation guidance  
-
-✅ \*\*CI/CD Ready\*\* - Docker containerized deployment  
+-CI/CD Ready - Docker containerized deployment  
 
 
 
@@ -40,9 +37,9 @@ Prerequisites
 
 
 
-\- Docker Desktop (v20.10+)
+- Docker Desktop (v20.10+)
 
-\- Docker Compose (v2.0+)
+- Docker Compose (v2.0+)
 
 
 
@@ -80,27 +77,25 @@ API Docs: http://localhost:8000/docs
 
 What It Detects
 
+-API1:2023 - Broken Object Level Authorization (BOLA)
 
+-API2:2023 - Broken Authentication
 
-\- \*\*API1:2023\*\* - Broken Object Level Authorization (BOLA)
+-API3:2023 - Broken Object Property Level Authorization
 
-\- \*\*API2:2023\*\* - Broken Authentication
+-API4:2023 - Unrestricted Resource Consumption
 
-\- \*\*API3:2023\*\* - Broken Object Property Level Authorization
+-API5:2023 - Broken Function Level Authorization
 
-\- \*\*API4:2023\*\* - Unrestricted Resource Consumption
+-API6:2023 - Unrestricted Access to Sensitive Business Flows
 
-\- \*\*API5:2023\*\* - Broken Function Level Authorization
+-API7:2023 - Server Side Request Forgery (SSRF)
 
-\- \*\*API6:2023\*\* - Unrestricted Access to Sensitive Business Flows
+-API8:2023 - Security Misconfiguration
 
-\- \*\*API7:2023\*\* - Server Side Request Forgery (SSRF)
+-API9:2023 - Improper Inventory Management
 
-\- \*\*API8:2023\*\* - Security Misconfiguration
-
-\- \*\*API9:2023\*\* - Improper Inventory Management
-
-\- \*\*API10:2023\*\* - Unsafe Consumption of APIs
+-API10:2023 - Unsafe Consumption of APIs
 
 
 
@@ -108,11 +103,11 @@ Tech Stack
 
 
 
-\*\*Backend:\*\* FastAPI, Python 3.11, Pydantic, HTTPX, Uvicorn  
+Backend: FastAPI, Python 3.11, Pydantic, HTTPX, Uvicorn  
 
-\*\*Frontend:\*\* React 18, TypeScript, Vite, Tailwind CSS  
+Frontend: React 18, TypeScript, Vite, Tailwind CSS  
 
-\*\*Infrastructure:\*\* Docker, Docker Compose, Nginx  
+Infrastructure: Docker, Docker Compose, Nginx  
 
 
 
@@ -120,17 +115,17 @@ Usage
 
 
 
-1\. Navigate to http://localhost:3000
+1. Navigate to http://localhost:3000
 
-2\. Enter target API URL
+2. Enter target API URL
 
-3\. Select API type (REST/GraphQL/SOAP)
+3. Select API type (REST/GraphQL/SOAP)
 
 4\. Configure authentication (if needed)
 
 5\. Click "Start Security Scan"
 
-6\. Review detailed vulnerability reports
+6. Review detailed vulnerability reports
 
 
 
@@ -138,17 +133,17 @@ Performance Metrics
 
 
 
-\- \*\*Speed:\*\* 6-10 seconds per scan (vs 8+ hours manual)
+-Speed:6-10 seconds per scan (vs 8+ hours manual)
 
-\- \*\*Throughput:\*\* 1,847+ HTTP requests per scan
+-Throughput: 1,847+ HTTP requests per scan
 
-\- \*\*Payloads:\*\* 342+ security payloads generated
+-Payloads: 342+ security payloads generated
 
-\- \*\*Time Saved:\*\* 85%+ reduction in testing time
+-Time Saved: 85%+ reduction in testing time
 
 
 
-📄 License
+License
 
 
 
@@ -156,24 +151,20 @@ MIT License - See LICENSE file for details
 
 
 
-\## 👤 Author
+Author
+Bryan Jorge
+
+[GitHub](https://github.com/BryanJ417) | [LinkedIn](https://linkedin.com/in/bryanjorge)
 
 
-
-\*\*Bryan Jorge\*\*  
-
-\[GitHub](https://github.com/BryanJ417) | \[LinkedIn](https://linkedin.com/in/bryanjorge)
+Acknowledgments
 
 
+- OWASP for API Security Top 10 framework
 
-\## 🙏 Acknowledgments
+- FastAPI for the excellent Python framework
 
+- React community for frontend tools
 
-
-\- OWASP for API Security Top 10 framework
-
-\- FastAPI for the excellent Python framework
-
-\- React community for frontend tools
 
 
