@@ -6,16 +6,6 @@ Enterprise-grade automated vulnerability assessment platform for REST, GraphQL, 
 
 
 
-\[!\[Docker](https://img.shields.io/badge/Docker-Ready-blue.svg)](https://www.docker.com/)
-
-\[!\[FastAPI](https://img.shields.io/badge/FastAPI-0.104.1-009688.svg)](https://fastapi.tiangolo.com/)
-
-\[!\[React](https://img.shields.io/badge/React-18.2.0-61DAFB.svg)](https://reactjs.org/)
-
-\[!\[TypeScript](https://img.shields.io/badge/TypeScript-5.2.2-3178C6.svg)](https://www.typescriptlang.org/)
-
-
-
 Overview
 
 
@@ -185,4 +175,5 @@ MIT License - See LICENSE file for details
 \- FastAPI for the excellent Python framework
 
 \- React community for frontend tools
+
 
