@@ -65,7 +65,7 @@ docker-compose up --build
 
 Access the application
 
-Frontend: http://localhost:3000
+Frontend: http://localhost
 
 Backend API: http://localhost:8000
 
@@ -165,6 +165,7 @@ Acknowledgments
 - FastAPI for the excellent Python framework
 
 - React community for frontend tools
+
 
 
 
